@@ -1,13 +1,19 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package FULL_JAVA;
 
-/**
- *
- * @author Jose Vilchez
- */
+
 public class Pract10 {
+    public static void main(String[] args) {
+         int c = 0;
+        while (c <= 10){
+            System.out.println(c);
+            c++;
+            if (c == 5){
+                System.out.println("Detener el ciclo while");
+                //Rompe el ciclo while
+                break;
+    }
     
+}
+    }
 }
