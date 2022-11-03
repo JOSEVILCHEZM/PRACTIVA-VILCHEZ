@@ -1,13 +1,24 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package FULL_JAVA;
 
-/**
- *
- * @author Jose Vilchez
- */
+
 public class Pract3 {
+ 
     
+     public static void main(String[] args) {
+        
+         int[][] x = {
+            {1,2,3},
+            {4,5,6},
+            {7,8},
+        };
+        //Primer for iterar array 
+        for (int[] matrizInterna: x) {
+            //Segundo for iterar datos de cada array 
+            for(int dato: matrizInterna) {
+                System.out.println(dato);
+    }
+    
+}
+     }
 }
