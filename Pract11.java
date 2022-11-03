@@ -1,13 +1,25 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package FULL_JAVA;
 
-/**
- *
- * @author Jose Vilchez
- */
+
 public class Pract11 {
     
+    public static void main(String[] args) {
+       int c = 0;
+        while (c <= 10){
+            c++;
+            System.out.println("Ejecución "+ c);
+            
+            if (c == 5){
+                System.out.println("Saltar a la siguiente ejecución");
+                //Saltar a la siguiente 
+                continue; 
+        
+    }
+            
+                     System.out.println("No me ejecutare en 5");
+
+    
+}
+    }
 }
